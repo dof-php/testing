@@ -1,0 +1,31 @@
+{
+    "name": "dof-php/testing",
+    "description": "The GWT description model based testing framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dof-php",
+            "email": "me@dof.php"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+ 	"autoload": {
+		"psr-4": {
+			"DOF\\Testing\\": "./src/"
+		},
+		"files": [
+		],
+		"exclude-from-classmap": [
+       ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+			"DOF\\Testing\\Test\\": "./test/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
